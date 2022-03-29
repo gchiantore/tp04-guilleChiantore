@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Mathlete
+Author: Mattox
+Url: http://www.fontsquirrel.com/fonts/mathlete
+
+Font: Milkshake
+Author: Laura Worthington
+Url: https://www.fontsquirrel.com/fonts/milkshake
+
+Font: Reey
+Author: Koen van der Bliek
+Url: https://www.fontsquirrel.com/fonts/reey
