@@ -1,5 +1,3 @@
-/* GENERAL */
-
 *{
     margin: 0px;
     border:0px;
@@ -14,7 +12,7 @@ body{
 }
 
 .relleno{
-    height:73px;
+    height:103px;
     width:100vw;
 }
 
@@ -296,6 +294,7 @@ a{
     flex-direction: column;
     justify-content:flex-start;
     align-content: flex-start;
+    overflow: hidden;
 }
 
 .cardArticulo__d{
@@ -304,6 +303,7 @@ a{
     flex-direction: column;
     justify-content:flex-start;
     align-content: flex-start;
+    overflow: hidden;
 }
 
 .cardArticulo__t{
@@ -312,6 +312,7 @@ a{
     flex-direction: column;
     justify-content:flex-start;
     align-content: flex-end;
+    overflow: hidden;
 }
 
 .cardArticulo__c{
@@ -320,11 +321,16 @@ a{
     flex-direction: column;
     justify-content:flex-start;
     align-content: flex-start;
+    overflow: hidden;
 }
 
 .cardArticulo__imagen{
     height: 620px;
     width: 100%;
+}
+
+.cardArticulo__imagen:hover{
+    transform: scale(1.5,1.5);
 }
 
 .cardArticulo__titulo{
@@ -495,6 +501,10 @@ a{
 
 }
 
+.cardEcoProdutos__imagen:hover{
+    transform: scale(1.05,1.05);
+}
+
 .cardEcoProdutos__texto__producto{
     font-weight: 500;
     font-size: 18px;
@@ -544,6 +554,10 @@ a{
     width: 360px;
     border-radius: 50%;
 
+}
+
+.cardRider__imagen:hover{
+    transform: translateY(-10%);
 }
 
 .cardRider__texto__nombre{
@@ -667,6 +681,10 @@ a{
     text-align: center;
 }
 
+.cardGreen:hover{
+    transform:scale(1.05,1.05)
+}
+
 .cardGreen__texto{
     font-size: 20px;
     height: 150px;
@@ -717,7 +735,22 @@ a{
 .contenedorPrincipal{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+
+.contenedorBanner{
+    background-color: #f75f05;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    height: 24px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    padding-top: 6px;
+    border-bottom: #fff 2px solid;
 }
 
 /* HEADER y MENU */
@@ -728,7 +761,7 @@ a{
     background-color:#fff;
     padding-bottom: 1px;
     position: fixed;
-    top: 0px;
+    top: 32px;
     z-index: 1000;
     border-bottom: 1px #292929 solid;
     /* box-shadow: 0px 5px 20px #5e5e5e; */
@@ -1947,7 +1980,7 @@ a{
     .relleno {
     height: 127px;
     }
-
+    
     .contenedorFooter {
     height: 400px;
     }
