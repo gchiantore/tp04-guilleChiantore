@@ -1653,7 +1653,7 @@ a{
 
     /* CARD INFO */
     .cardInfo{
-        height: 530px;
+        height: 600px;
     } 
 
     .cardInfo__titulo{
@@ -1804,7 +1804,7 @@ a{
 
     /* CARD INFO */
     .cardInfo{
-        height: 530px;
+        height: 600px;
     } 
 
     .cardInfo__main{
@@ -2106,71 +2106,7 @@ a{
         width: 250px;
     }
 
-    .contenedorMain--index {
-        grid-template-areas:
-        "aaa aaa aaa aaa aaa aaa"
-        "bbb bbb bbb bbb bbb bbb"
-        "ccc ccc ccc ccc ccc ccc"
-        "ddd ddd ddd ddd ddd ddd"
-        "eee eee eee eee eee eee"
-        "fff fff fff fff fff fff"
-        "ggg ggg hhh hhh iii iii"
-        "ggg ggg hhh hhh iii iii"
-        "ggg ggg hhh hhh iii iii";
-    }
 
-    .contenedorMain--riders{
-        grid-template-areas: 
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "bbb bbb bbb bbb bbb bbb"
-        "bbb bbb bbb bbb bbb bbb"
-        "ccc ccc ccc ccc ccc ccc"
-        "ccc ccc ccc ccc ccc ccc"
-        "ccc ccc ccc ccc ccc ccc";
-    }
-
-    .contenedorMain--nosotros{
-        grid-template-areas: 
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "bbb bbb bbb bbb bbb bbb"
-        "bbb bbb bbb bbb bbb bbb"
-        "ccc ccc ccc ccc ccc ccc"
-        "ddd ddd ddd ddd ddd ddd"
-        "eee eee eee eee eee eee"
-        "fff fff fff fff fff fff"
-        "ggg ggg ggg ggg ggg ggg";
-    }
-
-    .contenedorMain--sustentabilidad{
-        grid-template-areas: 
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "bbb bbb bbb bbb bbb bbb"
-        "ccc ccc ccc ccc ccc ccc"
-        "ccc ccc ccc ccc ccc ccc"
-        "ddd ddd ddd ddd ddd ddd"
-        "eee eee eee eee eee eee"
-        "fff fff fff fff fff fff"
-        "ggg ggg ggg ggg ggg ggg";
-    }
-
-    .contenedorMain--productos{
-        grid-template-areas: 
-        "aaa aaa aaa aaa aaa aaa"
-        "aaa aaa aaa aaa aaa aaa"
-        "bbb bbb bbb bbb bbb bbb"
-        "ccc ccc ccc ccc ccc ccc"
-        "ddd ddd ddd ddd ddd ddd"
-        "eee eee eee eee eee eee"
-        "fff fff fff fff fff fff"
-        "ggg ggg ggg ggg ggg ggg"
-        "ggg ggg ggg ggg ggg ggg";
-    
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -2250,7 +2186,7 @@ a{
     /* CARD INFO */
 
     .cardInfo{
-        height: 1100px;
+        height: 1300px;
     } 
 
     .cardInfo__main{
@@ -2356,7 +2292,7 @@ a{
     /* CARD INFO */
 
     .cardInfo{
-        height: 1000px;
+        height: 1200px;
     } 
 
     .cardInfo__main{
@@ -2426,7 +2362,7 @@ a{
     /* CARD INFO */
 
     .cardInfo{
-        height: 900px;
+        height: 1000px;
     } 
 
     .cardInfo__main{
