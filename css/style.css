@@ -336,7 +336,7 @@ a{
 }
 
 .cardPresentacion__imagen{
-    width: 600px;
+    width: 450px;
     height: 410px;
 }
 .cardPresentacion__ctexto{
@@ -793,7 +793,7 @@ a{
 .cardGreen__texto{
     font-size: 20px;
     height: 150px;
-    width: 40px;
+    width: 100%;
     background-color: #CADAD0;
     color: #458555;
 }
@@ -814,7 +814,7 @@ a{
 
 .cardGreen__imagen{
     height: 150px;
-    width: 40px;
+    width: 100%;
     background-color:#45855D;
     color: #CADAD0;
 }
@@ -2115,7 +2115,7 @@ a{
         align-content: center;
         justify-items: center;
         align-items: center;
-        height: 450px;
+        height: 550px;
     }
 
     .cardKnow__titulo{
@@ -2485,11 +2485,6 @@ a{
     /* FIN CLASE cardTitulo */
 
      /* CARD ECO PRODUCTOS */
-    .cardEcoProductos__contenedor{
-        width: 80%;
-        padding-left:  10%;
-        padding-right: 10%;
-    }    
 
     .cardEcoProdutos{
         height: 330px;
@@ -2500,6 +2495,10 @@ a{
     .cardEcoProdutos__imagen{
         height: 200px;
         width: 310px;
+    }
+
+    .cardKnow__contenedor{
+        height: 600px;
     }
 }
 
