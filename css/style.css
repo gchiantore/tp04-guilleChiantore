@@ -33,7 +33,6 @@ a{
     width: 196px;
     height: 40px;
     margin: 2px;
-
     line-height: 40px;
     text-align: center;
     text-decoration: none;
@@ -81,6 +80,54 @@ a{
 .btn-naranja:hover{
     background-color: #e35839;
 }
+
+
+/* Animacion de Iconos de RRSS */
+.icono{
+    animation: float 5s ease-in-out infinite;
+}
+
+.riInstagram{
+    animation-delay: 1s;
+}
+.riYoutube{
+    animation-delay: 2s;
+}
+
+.riPinterest{
+    animation-delay:3s;
+}
+
+@keyframes float {
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-15px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+/* FIN Animacion de Iconos de RRSS */
+/* Animacion de Iconos canasta de cpompras */
+
+@keyframes shake {
+    10%{
+        transform:rotate(15deg);
+    }
+    20%{
+        transform:rotate(-15deg);
+    }
+    30%{
+        transform:rotate(15deg);
+    }
+    50%{
+        transform:rotate(0deg);
+    }
+}
+/* FIN Animacion de Iconos canasta de cpompras */
 
 /* CONTENIDO DE LA PAGINA PRINCIPAL */
 
@@ -384,6 +431,7 @@ a{
 .cardArticulo__imagen{
     height: 620px;
     width: 100%;
+    transition: transform .90s;
 }
 
 .cardArticulo__imagen:hover{
@@ -566,14 +614,14 @@ a{
     font-weight: 500;
     font-size: 18px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     padding-left: 3px;
 }
 
 .cardEcoProdutos__texto__accion{
     font-weight: 100;
     font-size:16px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .cardEcoProdutos__imagen:hover{
@@ -619,7 +667,7 @@ a{
 
 .cardRider__texto__nombre{
     font-weight: 100;
-    font-size:36px;
+    font-size: 36px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 3px;
@@ -665,8 +713,8 @@ a{
     height: 100%;
     text-align: center;
     padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .cardKnow__titulo{
@@ -745,7 +793,7 @@ a{
 .cardGreen__texto{
     font-size: 20px;
     height: 150px;
-    width: 40%px;
+    width: 40px;
     background-color: #CADAD0;
     color: #458555;
 }
@@ -766,8 +814,8 @@ a{
 
 .cardGreen__imagen{
     height: 150px;
-    width: 40%px;
-    background-color:#458555;
+    width: 40px;
+    background-color:#45855D;
     color: #CADAD0;
 }
 
@@ -890,6 +938,13 @@ a{
     line-height: 66px;
 }
 
+.contenedorHeader__carr__icono{
+    max-width: 100%;
+}
+
+.contenedorHeader__carr:hover .contenedorHeader__carr__icono{
+    animation: shake 1s forwards;
+}
 /* FIN HEADER Y MENU */
 
 /****************************************** MAIN *****************************************/
@@ -1134,6 +1189,7 @@ a{
     .cardGreen__texto{
         font-size: 18px;
         height: 112px;
+        width: 100%;
     }
     
     .cardGreen__texto__titulo{
@@ -1150,7 +1206,7 @@ a{
     
     .cardGreen__imagen{
         height: 112px;
-        width: 40%px;
+        width: 100%;
     }
     
     .cardGreen__imagen__icono{
@@ -1307,7 +1363,7 @@ a{
     }
     
     .cardRider__texto__nombre{
-        font-size:28 px;
+        font-size:28px;
     }
     
     .cardRider__texto__apellido{
@@ -1330,12 +1386,12 @@ a{
     
     .cardGreen__texto__titulo{
         font-size: 24px;
-        padding-top: 24px;
+        padding-top: 10px;
     }
     
     .cardGreen__texto__parrafo{
         font-size: 16px;
-        padding-top: 8px;
+        padding-top: 2px;
         padding-left: 24px;
         padding-right: 24px;
     }
@@ -1367,7 +1423,7 @@ a{
     }
 
     .cardKnow__parrafo{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 200;
     }
 
@@ -1383,6 +1439,13 @@ a{
     .cardProducts__imagen{
         height: 370px;
         width: 250px;
+    }
+
+    .cardProducts__nombre{
+        font-size: 18px;
+    }
+    .cardProducts__precio{
+        font-size: 18px;
     }
 }
 
