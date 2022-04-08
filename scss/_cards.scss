@@ -1,0 +1,529 @@
+/* ELEMENTOS COMUNES DE LAS DEMAS PAGINAS  */
+
+/* CARD PRESENTACION  */
+
+.cardPresentacion{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: $c_blanco;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:"uno dos" "uno dos";
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    .cimagen{
+        width: 420px;
+        grid-area: uno;
+        .imagen{
+            width: 450px;
+            height: 410px;
+        }
+    }
+    .titulo{
+        font-weight: 600;
+        color: $c_verdeOscuro;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 3px;
+    }
+    .ctexto{
+        grid-area: dos;
+        .texto{
+            font-size: 24px;
+            font-weight: 200;
+            color: $c_grisOscuro;
+        }
+    }
+}
+
+/* FIN CARD PRESENTACION */
+
+/* CARD TITULO CON SEPARADOR */
+
+.cardSeparador{
+    height: 140px;
+    margin-top: 3%;
+    text-align: center;
+    background-color: $c_blanco;
+    .barra{
+        background-color: $c_verdeClaro;
+        height: 8px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .titulo{
+        color: $c_grisOscuro;
+        margin-top: 15px;
+        font-weight: 100;
+        font-size: 48px;
+    }
+}
+
+/* FIN CARD TITULO CON SEPARADOR */
+
+/* CARD ARTICULO CON IMAGEN */
+.cardArticulo{
+    width: 100%;
+    background-color: $c_blanco;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+        "uuu ddd"
+        "uuu ddd"
+        "ttt ccc"
+        "ttt ccc";
+    justify-content: center;
+    align-content: center;
+    column-gap: 1%;
+    row-gap: 1%;
+    .uno{
+        grid-area: uuu;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-content: flex-start;
+        overflow: hidden;
+    }
+    
+    .dos{
+        grid-area: ddd;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-content: flex-start;
+        overflow: hidden;
+    }
+    
+    .tres{
+        grid-area: ttt;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-content: flex-end;
+        overflow: hidden;
+    }
+    
+    .cuatro{
+        grid-area: ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-content: flex-start;
+        overflow: hidden;
+    }
+    
+    .imagen{
+        height: 620px;
+        width: 100%;
+        transition: transform .90s;
+    }
+    
+    .imagen:hover{
+        transform: scale(1.5,1.5);
+    }
+    
+    .titulo{
+        font-weight: 100;
+        font-size: 48px;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    
+    .texto{
+        font-size: 24px;
+        font-weight: 100;
+    }
+}
+
+
+/* FIN CARD ARTICULO CON IMAGEN */
+
+/* CARD INFORMACION DE CONTACTO */
+
+.cardInfo{
+    height: 950px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    background-color: $c_celeste;
+    .titulo{
+        color: $c_blanco;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    
+    .main{
+        width: 35%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 10px;
+        display:flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        .mapa{
+            width:800px;
+            height: 600px;
+        }
+        
+        .formInput{
+            height: 30px;
+            width: 95%;
+            padding: 3;
+            border-bottom: grey solid 1px;
+            background: $c_blanco;
+            color: $c_grisOscuro;
+            margin-bottom: 10px;
+            font-size: 16px;
+        
+        }
+        
+        .formTextArea{
+            width: 95%;
+            padding: 3;
+            border-bottom: grey solid 1px;
+            background: $c_blanco;
+            color: $c_grisOscuro;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .formSelect{
+            height: 30px;
+            width: 95%;
+            padding: 3;
+            margin-bottom: 20px;
+            font-size: 16px;
+        
+        }
+        
+        .formLabel{
+            color: $c_blanco;
+            font-size: 20px;
+            font-weight: 200;
+            margin-top: 5px;
+        }
+    }
+}
+
+/* FIN CARD INFORMACION DE CONTACTO */
+
+/* CARD PRODUCTOS */
+
+.cardProductos__contenedor{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: $c_blanco;
+    display: flex;
+    row-gap: 40%;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    .cardProducts{
+        height: 580px;
+        width: 300px;
+        text-align: center;
+        padding: 5px;
+        border:rgba(255, 255, 255, 1) solid 1px;
+        float: left;
+        .imagen{
+            height: 400px;
+            width: 280px;
+        }
+        
+        .nombre{
+            font-weight: 100; 
+            text-align: left;
+        }
+        .precio{
+            font-weight: 100;
+            text-align: left;
+            padding-bottom: 10px; 
+        }
+    }
+    .cardProducts:hover{
+        border: $c_grisOscuro solid 1px;
+    }
+}
+
+
+/* FIN CARD PRODUCTOS */
+
+/* CARD ECO-PRODUCTS */
+
+.cardEcoProductos__contenedor{
+    width:100%;
+    padding-left:  10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: $c_blanco;
+    display: flex;
+    row-gap: 40%;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    .cardEcoProdutos{
+        height: 460px;
+        width: 440px;
+        text-align: center;
+        padding-top: 10px;
+        .imagen{
+            height: 310px;
+            width: 440px;
+        }
+        .textoProducto{
+            font-weight: 500;
+            font-size: 18px;
+            padding-top: 5px;
+            padding-bottom: 3px;
+            padding-left: 3px;
+        }
+        .textoAccion{
+            font-weight: 100;
+            font-size:16px;
+            padding-bottom: 2%;
+        }
+    }
+    .imagen:hover{
+        transform: scale(1.05,1.05);
+        box-shadow: 0px 5px 20px #5e5e5e;
+    }
+}
+
+/* FIN CARD ECO-PRODUCTS */
+
+/* CARD RIDERS */
+
+.cardRider__contenedor{
+    width: 100%;
+    padding-left:  10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: $c_blanco;
+    display: flex;
+    row-gap: 40%;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    .cardRiders{
+        width: 420px;
+        text-align: center;
+        .imagen{
+            height: 360px;
+            width: 360px;
+            border-radius: 50%;
+        }
+        .textoNombre{
+            font-weight: 100;
+            font-size: 36px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 3px;
+        }
+        
+        .textoApellido{
+            font-weight: 500;
+            font-size: 36px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 3px;
+        }
+        
+        .textoDisciplina{
+            font-weight: 100;
+            font-size:36px;
+            padding-bottom: 35%;
+        }
+        .imagen:hover{
+            transform: translateY(-10%);
+            box-shadow: 0px 5px 20px #5e5e5e;
+        }
+    }
+}
+
+/* CARD RIDERS */
+
+/* CLASE cardKnow */
+.cardKnow__contenedor{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    .cardKnow{
+        width: auto;
+        height: 100%;
+        text-align: center;
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        .titulo{
+            font-weight: 300px;
+            font-size: 36px;
+            padding-bottom: 20px;
+        }
+        .claro{
+            color: $c_verdeClaro;
+        }
+        .oscuro{
+            color: $c_verdeOscuro;
+        }
+        .parrafo{
+            font-size: 24px;
+            font-weight: 200;
+        }
+        .parrafoClaro{
+            color: $c_verdeClaro;
+        }
+        .parrafoOscuro{
+            color: $c_verdeOscuro;
+        }
+    }
+}
+.cardKnowContenedoroscuro{
+    background-color: $c_verdeOscuro;
+}
+
+.cardKnowContenedorclaro{
+    background-color: $c_verdeClaro;
+    
+}
+
+/* FIN CLASE cardKnow */
+
+
+/* CLASE cardTitulo */
+.cardTitulo__contenedor{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: $c_blanco;
+    background-color: $c_grisOscuro;
+    .imagen{
+        width: 150px;
+        height: 230px;
+        padding-top: 80px;
+        padding-bottom: 5px;
+    }
+    
+    .texto{
+        font-weight: 200;
+        font-size: 48px;
+        
+    }
+    .textoChico{
+        font-weight: 200;
+        font-size: 24px;
+    }
+}
+
+/* FIN CLASE cardTitulo */
+
+/* CLASE cardGreen */
+.cardGreen__contenedor{
+    background-color: $c_blanco;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3%;
+    .cardGreen{
+        margin: 15px;
+        height: 300px;
+        width: 40%;
+        text-align: center;
+        .texto{
+            font-size: 20px;
+            height: 150px;
+            width: 100%;
+            background-color: $c_verdeClaro;
+            color: $c_verdeOscuro;
+            .titulo{
+                font-size: 26px;
+                font-weight: 500;
+                padding-top: 30px;
+            }
+            .parrafo{
+                font-size: 18px;
+                font-weight: 100;
+                padding-top: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        .imagen{
+            height: 150px;
+            width: 100%;
+            background-color:$c_verdeOscuro;
+            color: $c_verdeClaro;
+            .iconoG{
+                font-size: 20px;
+                font-weight: 500;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .valor{
+                font-weight: 500;
+                padding-top: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .cardGreen:hover{
+        transform:scale(1.05,1.05)
+    }
+}
+
+/* FIN CLASE cardGreen */
+
+/* GRILLA PRINCIPAL */
+
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto;
+}
+
+
+.contenedorBanner{
+    background-color: $c_naranja;
+    color: $c_negro;
+    font-weight: 500;
+    text-align: center;
+    height: 32px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    padding-top: 6px;
+    border-bottom: $c_blanco 2px solid;
+    margin: 0%;
+}
+
+.contenedorMain{
+    width: auto;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    background-color: $c_blanco;
+}

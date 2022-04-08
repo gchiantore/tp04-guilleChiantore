@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0px;
     padding: 0%;
     border:0px;
@@ -21,18 +21,19 @@ body{
 
 a{
     text-decoration: none;
-} */
+}
 
 /* FIN GENERAL */
 
 
 /* BOTONES DE ENLACES */
 
-/* .btnCta{
+.btnCta{
     display: inline-block;
     width: 196px;
     height: 40px;
     margin: 2px;
+
     line-height: 40px;
     text-align: center;
     text-decoration: none;
@@ -79,59 +80,11 @@ a{
 
 .btn-naranja:hover{
     background-color: #e35839;
-} */
-
-
-/* Animacion de Iconos de RRSS */
-/* .icono{
-    animation: float 5s ease-in-out infinite;
 }
-
-.riInstagram{
-    animation-delay: 1s;
-}
-.riYoutube{
-    animation-delay: 2s;
-}
-
-.riPinterest{
-    animation-delay:3s;
-}
-
-@keyframes float {
-    0%{
-        transform:translateY(0);
-    }
-    50%{
-        transform:translateY(-15px);
-    }
-    100%{
-        transform:translateY(0);
-    }
-} */
-
-/* FIN Animacion de Iconos de RRSS */
-/* Animacion de Iconos canasta de cpompras */
-
-/* @keyframes shake {
-    10%{
-        transform:rotate(15deg);
-    }
-    20%{
-        transform:rotate(-15deg);
-    }
-    30%{
-        transform:rotate(15deg);
-    }
-    50%{
-        transform:rotate(0deg);
-    }
-} */
-/* FIN Animacion de Iconos canasta de cpompras */
 
 /* CONTENIDO DE LA PAGINA PRINCIPAL */
 
-/* .principalA{
+.principalA{
     width: calc(100%-30px);
     height: 930px;
     margin-top: 15px;
@@ -300,14 +253,14 @@ a{
 .principalE__imagen{
     width: 100%;
     height: 930px;
-} */
+}
 
 /* FIN CONTENIDO DE LA PAGINA PRINCIPAL */
 
 /* ELEMENTOS COMUNES DE LAS DEMAS PAGINAS  */
 
 /* CARD PRESENTACION  */
-/* .cardPresentacion{
+.cardPresentacion{
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -336,7 +289,7 @@ a{
 }
 
 .cardPresentacion__imagen{
-    width: 450px;
+    width: 600px;
     height: 410px;
 }
 .cardPresentacion__ctexto{
@@ -347,12 +300,12 @@ a{
     font-weight: 200;
     color: #292929;
 }
- */
+
 /* FIN CARD PRESENTACION */
 
 /* CARD TITULO CON SEPARADOR */
 
-/* .cardSeparador{
+.cardSeparador{
     height: 140px;
     margin-top: 3%;
     text-align: center;
@@ -369,12 +322,12 @@ a{
     margin-top: 15px;
     font-weight: 100;
     font-size: 48px;
-} */
+}
 
 /* FIN CARD TITULO CON SEPARADOR */
 
 /* CARD ARTICULO CON IMAGEN */
-/* .cardArticulo{
+.cardArticulo{
     width: 100%;
     background-color: #fff;
     display:grid;
@@ -431,7 +384,6 @@ a{
 .cardArticulo__imagen{
     height: 620px;
     width: 100%;
-    transition: transform .90s;
 }
 
 .cardArticulo__imagen:hover{
@@ -449,12 +401,12 @@ a{
     font-size: 24px;
     font-weight: 100;
 }
- */
+
 /* FIN CARD ARTICULO CON SEPARADOR */
 
 /* CARD INFORMACION DE CONTACTO */
 
-/* .cardInfo{
+.cardInfo{
     height: 950px;
     padding: 5px;
     text-align: left;
@@ -523,13 +475,13 @@ a{
     font-size: 20px;
     font-weight: 200;
     margin-top: 5px;
-} */
+}
 
 /* FIN CARD INFORMACION DE CONTACTO */
 
 /* CARD PRODUCTOS */
 
-/* .cardProductos__contenedor{
+.cardProductos__contenedor{
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -570,12 +522,12 @@ a{
 
 .cardProducts:hover{
     border: #292929 solid 1px;
-} */
+}
 /* CARD PRODUCTOS */
 
 /* CARD ECO-PRODUCTS */
 
-/* .cardEcoProductos__contenedor{
+.cardEcoProductos__contenedor{
     width:100%;
     padding-left:  10%;
     padding-right: 10%;
@@ -614,25 +566,25 @@ a{
     font-weight: 500;
     font-size: 18px;
     padding-top: 5px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     padding-left: 3px;
 }
 
 .cardEcoProdutos__texto__accion{
     font-weight: 100;
     font-size:16px;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 .cardEcoProdutos__imagen:hover{
     box-shadow: 0px 5px 20px #5e5e5e;
 }
- */
+
 /* CARD ECO-PRODUCTS */
 
 /* CARD RIDERS */
 
-/* .cardRider__contenedor{
+.cardRider__contenedor{
     width: 100%;
     padding-left:  10%;
     padding-right: 10%;
@@ -667,7 +619,7 @@ a{
 
 .cardRider__texto__nombre{
     font-weight: 100;
-    font-size: 36px;
+    font-size:36px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 3px;
@@ -689,11 +641,11 @@ a{
 
 .cardRider__imagen:hover{
     box-shadow: 0px 5px 20px #5e5e5e;
-} */
+}
 /* CARD RIDERS */
 
 /* CLASE cardKnow */
-/* .cardKnow__contenedor{
+.cardKnow__contenedor{
     width: 100%;
     height: 400px;
     display: flex;
@@ -713,8 +665,8 @@ a{
     height: 100%;
     text-align: center;
     padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .cardKnow__titulo{
@@ -738,12 +690,12 @@ a{
 }
 .cardKnow__parrafo--oscuro{
     color: #458555;
-} */
+}
 /* FIN CLASE cardKnow */
 
 
 /* CLASE cardTitulo */
-/* .cardTitulo__contenedor{
+.cardTitulo__contenedor{
     width: 100%;
     height: 400px;
     text-align: center;
@@ -765,11 +717,11 @@ a{
 }
 .cardTitulo__texto--chico{
     font-size: 24px;
-} */
+}
 /* FIN CLASE cardTitulo */
 
 /* CLASE cardGreen */
-/* .cardGreen__contenedor{
+.cardGreen__contenedor{
     background-color: #fff;
     width: 100%;
     display: flex;
@@ -793,7 +745,7 @@ a{
 .cardGreen__texto{
     font-size: 20px;
     height: 150px;
-    width: 100%;
+    width: 40%px;
     background-color: #CADAD0;
     color: #458555;
 }
@@ -814,8 +766,8 @@ a{
 
 .cardGreen__imagen{
     height: 150px;
-    width: 100%;
-    background-color:#45855D;
+    width: 40%px;
+    background-color:#458555;
     color: #CADAD0;
 }
 
@@ -831,12 +783,12 @@ a{
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-} */
+}
 /* FIN CLASE cardGreen */
 
 /* GRILLA PRINCIPAL */
 
-/* .contenedorPrincipal{
+.contenedorPrincipal{
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;
@@ -856,9 +808,9 @@ a{
     padding-top: 6px;
     border-bottom: #fff 2px solid;
     margin: 0%;
-} */
+}
 
-/* HEADER y MENU 
+/* HEADER y MENU */
 
 .contenedorHeader{
     height:69px;
@@ -869,7 +821,7 @@ a{
     top: 32px;
     z-index: 1000;
     border-bottom: 1px #292929 solid;
-    /* box-shadow: 0px 5px 20px #5e5e5e; 
+    /* box-shadow: 0px 5px 20px #5e5e5e; */
     display:grid;
     grid-template-columns: 66px auto 66px;
     grid-template-areas: "lll mmm ccc";
@@ -938,30 +890,23 @@ a{
     line-height: 66px;
 }
 
-.contenedorHeader__carr__icono{
-    max-width: 100%;
-}
-
-.contenedorHeader__carr:hover .contenedorHeader__carr__icono{
-    animation: shake 1s forwards;
-}
- FIN HEADER Y MENU */
+/* FIN HEADER Y MENU */
 
 /****************************************** MAIN *****************************************/
-/* .contenedorMain{
+.contenedorMain{
     width: auto;
     padding-top: 15px; 
     padding-bottom: 15px;
     background-color: #ffffff;
 }
- */
+
 
 
 /****************************************** MAIN *****************************************/
 
 /* PIE DE PAGINA  */
 
-/* .contenedorFooter{
+.contenedorFooter{
     height:300px;
     width: 100vw;
     text-align:center;
@@ -1062,7 +1007,7 @@ a{
 .footer__rrss__enlace:hover{
     color: #fff;
 }
- */
+
 
 /* FIN FOOTER */
 
@@ -1189,7 +1134,6 @@ a{
     .cardGreen__texto{
         font-size: 18px;
         height: 112px;
-        width: 100%;
     }
     
     .cardGreen__texto__titulo{
@@ -1206,7 +1150,7 @@ a{
     
     .cardGreen__imagen{
         height: 112px;
-        width: 100%;
+        width: 40%px;
     }
     
     .cardGreen__imagen__icono{
@@ -1363,7 +1307,7 @@ a{
     }
     
     .cardRider__texto__nombre{
-        font-size:28px;
+        font-size:28 px;
     }
     
     .cardRider__texto__apellido{
@@ -1386,12 +1330,12 @@ a{
     
     .cardGreen__texto__titulo{
         font-size: 24px;
-        padding-top: 10px;
+        padding-top: 24px;
     }
     
     .cardGreen__texto__parrafo{
         font-size: 16px;
-        padding-top: 2px;
+        padding-top: 8px;
         padding-left: 24px;
         padding-right: 24px;
     }
@@ -1423,7 +1367,7 @@ a{
     }
 
     .cardKnow__parrafo{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 200;
     }
 
@@ -1439,13 +1383,6 @@ a{
     .cardProducts__imagen{
         height: 370px;
         width: 250px;
-    }
-
-    .cardProducts__nombre{
-        font-size: 18px;
-    }
-    .cardProducts__precio{
-        font-size: 18px;
     }
 }
 
@@ -2115,7 +2052,7 @@ a{
         align-content: center;
         justify-items: center;
         align-items: center;
-        height: 550px;
+        height: 450px;
     }
 
     .cardKnow__titulo{
@@ -2485,6 +2422,11 @@ a{
     /* FIN CLASE cardTitulo */
 
      /* CARD ECO PRODUCTOS */
+    .cardEcoProductos__contenedor{
+        width: 80%;
+        padding-left:  10%;
+        padding-right: 10%;
+    }    
 
     .cardEcoProdutos{
         height: 330px;
@@ -2495,10 +2437,6 @@ a{
     .cardEcoProdutos__imagen{
         height: 200px;
         width: 310px;
-    }
-
-    .cardKnow__contenedor{
-        height: 600px;
     }
 }
 

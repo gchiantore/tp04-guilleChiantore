@@ -1,0 +1,90 @@
+/* HEADER y MENU */
+
+.contenedorHeader{
+    height:69px;
+    width:100vw;
+    background-color:$c_blanco;
+    padding-bottom: 1px;
+    position: fixed;
+    top: 32px;
+    z-index: 1000;
+    border-bottom: 1px $c_grisOscuro solid;
+    /* box-shadow: 0px 5px 20px #5e5e5e; */
+    display:grid;
+    grid-template-columns: 66px auto 66px;
+    grid-template-areas: "lll mmm ccc";
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        height: 66px;
+        width: 66px;
+        margin-left: 3px;
+        grid-area: lll;
+        .image{
+            height: 66px;
+            width: 66px;
+        }
+    }
+    .menu{
+        list-style-type: none;
+        height: auto;
+        padding:0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 30px;
+        grid-area: mmm;
+        .listaMenu__item{
+            padding-top: 18px;
+            text-align: left;
+            font-size: 24;
+            font-weight: 300;
+            text-decoration: none;
+            .enlace{
+                text-decoration: none;
+                color:$c_negro;
+            }
+
+            .enlace--sust{
+                text-decoration: none;
+                color:$c_verdeOscuro;
+            }
+        }
+        .listaMenu__item:hover{
+            font-weight: 500;
+        }
+    }
+    .carr{
+        height: 66px;
+        width: 66px;
+        grid-area: ccc;
+        text-align: center;
+        line-height: 66px;
+        .icono-h{
+            max-width: 100%;
+        }
+    }
+    .carr:hover .icono-h{
+            animation: shake 1s forwards;
+    }
+
+    
+
+}
+
+.navbar{
+    height: 50px;
+    width: auto;
+}
+
+.bg-blanco{
+    background-color: $c_blanco;
+}
+
+
+
+
+
+
+
+/* FIN HEADER Y MENU */

@@ -11,7 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <!--  <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/styles-scss.css">
 
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -33,9 +34,9 @@
     </div>
     <div class="container-fluid">
         <header class="row contenedorHeader">
-            <div class="contenedorHeader__logo">
+            <div class="logo">
                 <a href="../index.html">
-                    <img class="contenedorHeader__logo__image" src="../images/fluid01-negro-blanco-01.png" alt="Logo Empresa">
+                    <img class="image" src="../images/fluid01-negro-blanco-01.png" alt="Logo Empresa">
                 </a>
             </div>
 
@@ -45,18 +46,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-blanco" id="navbarNav">
-                    <ul class="contenedorHeader__menu">
-                        <li class="contenedorHeader__menu__listaMenu__item"><a class="contenedorHeader__menu__listaMenu__item__enlace"href="../index.html">Home</a></li>
-                        <li class="contenedorHeader__menu__listaMenu__item"><a class="contenedorHeader__menu__listaMenu__item__enlace"href="../pages/productos.html">Productos</a></li>
-                        <li class="contenedorHeader__menu__listaMenu__item"><a class="contenedorHeader__menu__listaMenu__item__enlace--sust"href="../pages/sustentabilidad.html">Sustentabilidad</a></li>
-                        <li class="contenedorHeader__menu__listaMenu__item"><a class="contenedorHeader__menu__listaMenu__item__enlace"href="../pages/riders.html">Riders</a></li>
-                        <li class="contenedorHeader__menu__listaMenu__item"><a class="contenedorHeader__menu__listaMenu__item__enlace"href="../pages/nosotros.html">Nosotros</a></li>
+                    <ul class="menu">
+                        <li class="listaMenu__item"><a class="enlace"href="../index.html">Home</a></li>
+                        <li class="listaMenu__item"><a class="enlace"href="../pages/productos.html">Productos</a></li>
+                        <li class="listaMenu__item"><a class="enlace--sust"href="../pages/sustentabilidad.html">Sustentabilidad</a></li>
+                        <li class="listaMenu__item"><a class="enlace"href="../pages/riders.html">Riders</a></li>
+                        <li class="listaMenu__item"><a class="enlace"href="../pages/nosotros.html">Nosotros</a></li>
                     </ul>
                 </div>
                 </div>
             </nav>
-            <div class="contenedorHeader__carr">
-                <i class="fa-solid fa-basket-shopping fa-2xl contenedorHeader__carr__icono"></i>
+            <div class="carr">
+                <i class="fa-solid fa-basket-shopping fa-2xl icono-h"></i>
             </div>
         </header>
     </div> 
@@ -64,7 +65,7 @@
         <section class="row">
             <article class="col-12 m-0 p-0">
                 <div class="principalE">
-                    <img class="principalE__imagen" src="../images/nvo-banda04.png" alt="">
+                    <img class="imagen" src="../images/nvo-banda04.png" alt="">
                 </div>
             </article>    
         </section>
@@ -72,8 +73,8 @@
             <div class="col-lg-2"></div>
             <article class="col-lg-8 col-sm-12 m-0 p-0">    
                 <div class="cardSeparador">
-                    <div class="cardSeparador__barra"></div>
-                    <h3 class="cardSeparador__titulo">
+                    <div class="barra"></div>
+                    <h3 class="titulo">
                         HEY!! CUAL TE GUSTA??
                     </h3>
                 </div>
@@ -84,37 +85,37 @@
             <article class="col-12 m-0 p-0">
                 <div class="cardProductos__contenedor">
                     <div class="cardProducts">
-                        <img src="../images/producto01.png" alt="" class="cardProducts__imagen">
-                        <h3 class="cardProducts__nombre">Gravity 01</h3>
-                        <h3 class="cardProducts__precio">$ 123,20</h3>
-                        <div class="btnCta btnCta--celeste">
+                        <img src="../images/producto01.png" alt="" class="imagen">
+                        <h3 class="nombre">Gravity 01</h3>
+                        <h3 class="precio">$ 123,20</h3>
+                        <div class="btnCta celeste">
                             Uh! Este re va
                         </div>
                     </div>
 
                     <div class="cardProducts">
-                        <img src="../images/producto02.png" alt="" class="cardProducts__imagen">
-                        <h3 class="cardProducts__nombre">PRO-X</h3>
-                        <h3 class="cardProducts__precio">$ 549,99</h3>
-                        <div class="btnCta btnCta--celeste">
+                        <img src="../images/producto02.png" alt="" class="imagen">
+                        <h3 class="nombre">PRO-X</h3>
+                        <h3 class="precio">$ 549,99</h3>
+                        <div class="btnCta celeste">
                             Me Encanto!
                         </div>
                     </div>
 
                     <div class="cardProducts">
-                        <img src="../images/producto03.png" alt="" class="cardProducts__imagen">
-                        <h3 class="cardProducts__nombre">Gravity Hooded 6/4</h3>
-                        <h3 class="cardProducts__precio">$ 399,99</h3>
-                        <div class="btnCta btnCta--celeste">
+                        <img src="../images/producto03.png" alt="" class="imagen">
+                        <h3 class="nombre">Gravity Hooded 6/4</h3>
+                        <h3 class="precio">$ 399,99</h3>
+                        <div class="btnCta celeste">
                             Voy por este!
                         </div>
                     </div>
 
                     <div class="cardProducts">
-                        <img src="../images/producto04.png" alt="" class="cardProducts__imagen">
-                        <h3 class="cardProducts__nombre">Radiance Hood</h3>
-                        <h3 class="cardProducts__precio">$ 34,99</h3>
-                        <div class="btnCta btnCta--celeste">
+                        <img src="../images/producto04.png" alt="" class="imagen">
+                        <h3 class="nombre">Radiance Hood</h3>
+                        <h3 class="precio">$ 34,99</h3>
+                        <div class="btnCta celeste">
                             Zarpadoooo
                         </div>
                     </div>
@@ -125,9 +126,9 @@
             <article class="col-12 m-0 p-0">
                 <div class="cardTitulo__contenedor">
                     <div class="cardTitulo">
-                        <img class="cardTitulo__imagen" src="../images/fuid-eco-blanco-transparente.png" alt="">
-                        <h1 class="cardTitulo__texto">Nuesto Productos</h1>
-                        <h3 class="cardTitulo__texto cardTitulo__texto--chico">
+                        <img class="imagen" src="../images/fuid-eco-blanco-transparente.png" alt="">
+                        <h1 class="texto">Nuesto Productos</h1>
+                        <h3 class="textoChico">
                             cuidemos nuestro lugar de juego
                         </h3>
                     </div>
@@ -138,12 +139,12 @@
             <div class="col-lg-2"></div>
             <article class="col-lg-8 col-sm-12 m-0 p-0">
                 <div class="cardPresentacion">
-                    <div class="cardPresentacion__cimagen">     
-                        <h3 class="cardPresentacion__titulo">SUSTENTABILIDAD</h3>
-                        <img src="../images/eco-productos.png" alt="" class="cardPresentacion__imagen">
+                    <div class="cimagen">     
+                        <h3 class="titulo">SUSTENTABILIDAD</h3>
+                        <img src="../images/eco-productos.png" alt="" class="imagen">
                     </div>    
-                    <div class="cardPresentacion__ctexto">
-                        <p class="cardPresentacion__ctexto__texto">
+                    <div class="ctexto">
+                        <p class="texto">
                             Los últimos años nos hicieron darnos cuenta cada vez más de que tenemos que cuidar nuestro mundo y cuidar de los demás. Más que nunca, apreciamos todo lo que la madre tierra tiene para ofrecer. Como surfistas, sentimos la responsabilidad de cuidar este hermoso parque infantil. Por lo tanto, tratamos de hacer todo lo posible como empresa para ser y trabajar de manera más sostenible.
                             Cada año, nuestro objetivo es desarrollar nuestras colecciones más verdes que antes, y tratamos de trabajar tanto como sea posible con recursos sostenibles. Hemos analizado cada detalle de nuestros procesos de producción y hemos encontrado una solución para reducir, reutilizar y reciclar.
                             No podemos cambiar el mundo de golpe, pero podemos contribuir a un futuro más sostenible.
@@ -157,8 +158,8 @@
             <div class="col-lg-2"></div>
             <article class="col-lg-8 col-sm-12 m-0 p-0">    
                 <div class="cardSeparador">
-                    <div class="cardSeparador__barra"></div>
-                    <h3 class="cardSeparador__titulo">
+                    <div class="barra"></div>
+                    <h3 class="titulo">
                         LA SUSTENTABILIDA EN NUESTROS PRODUCTOS
                     </h3>
                 </div>
@@ -169,34 +170,34 @@
             <article class="col-12 m-0 p-0">
                 <div class="cardEcoProductos__contenedor">
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp01.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">Acolchado Reciclado</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">Todos los artículos acolchados vienen con un acolchado reciclado.</p>
+                        <img class="imagen" src="../images/Sp01.png" alt="">
+                        <p span class="textoProducto">Acolchado Reciclado</span></p> 
+                        <p class="textoAccion">Todos los artículos acolchados vienen con un acolchado reciclado.</p>
                     </div>
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp02.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">Libre de PFC</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">La mayoría de nuestros softshells están libres de PFC.</p>
+                        <img class="imagen" src="../images/Sp02.png" alt="">
+                        <p span class="textoProducto">Libre de PFC</span></p> 
+                        <p class="textoAccion">La mayoría de nuestros softshells están libres de PFC.</p>
                     </div>
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp03.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">Poliéster reciclado</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">Muchas chaquetas y pantalones para la nieve están hechos de poliéster reciclado.</p>
+                        <img class="imagen" src="../images/Sp03.png" alt="">
+                        <p span class="textoProducto">Poliéster reciclado</span></p> 
+                        <p class="textoAccion">Muchas chaquetas y pantalones para la nieve están hechos de poliéster reciclado.</p>
                     </div>
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp04.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">Algodon organico</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">Nuestro nuevo programa de sudadera está hecho de algodón orgánico. Además, nuestra camiseta básica de mujer, camisetas de hombre y varios pantalones cortos de hombre, están hechos de algodón orgánico.</p>
+                        <img class="imagen" src="../images/Sp04.png" alt="">
+                        <p span class="textoProducto">Algodon organico</span></p> 
+                        <p class="textoAccion">Nuestro nuevo programa de sudadera está hecho de algodón orgánico. Además, nuestra camiseta básica de mujer, camisetas de hombre y varios pantalones cortos de hombre, están hechos de algodón orgánico.</p>
                     </div>
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp05.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">Bikinis Reciclados</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">Todos los bikinis mix and match están hechos de poliéster reciclado, y todos los rellenos del bikini vienen con una etiqueta certificada OEKOTEX.</p>
+                        <img class="imagen" src="../images/Sp05.png" alt="">
+                        <p span class="textoProducto">Bikinis Reciclados</span></p> 
+                        <p class="textoAccion">Todos los bikinis mix and match están hechos de poliéster reciclado, y todos los rellenos del bikini vienen con una etiqueta certificada OEKOTEX.</p>
                     </div>
                     <div class="cardEcoProdutos">
-                        <img class="cardEcoProdutos__imagen" src="../images/Sp06.png" alt="">
-                        <p span class="cardEcoProdutos__texto__producto">CrunEco</span></p> 
-                        <p class="cardEcoProdutos__texto__accion">Estamos orgullosos de presentar el CrunECO. ¡Este brillante y colorido short de baño viene en una amplia gama de colores y ahora está hecho de poliéster reciclado!</p>
+                        <img class="imagen" src="../images/Sp06.png" alt="">
+                        <p span class="textoProducto">CrunEco</span></p> 
+                        <p class="textoAccion">Estamos orgullosos de presentar el CrunECO. ¡Este brillante y colorido short de baño viene en una amplia gama de colores y ahora está hecho de poliéster reciclado!</p>
                     </div>
                 </div>
             </article>    
@@ -204,22 +205,22 @@
     </main>
 
     <footer class="contenedorFooter">
-        <section class="footerLineaSuperior">
-            <div class="footerLineaSuperior__logo">
-                <a href="index.html">
-                    <img class="footer__logo__image" src="../images/fluid01-blanco-transparente-01.png" alt="Logo Empresa">
+        <section class="lineaSuperior">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="image" src="../images/fluid01-blanco-transparente-01.png" alt="Logo Empresa">
                 </a>
             </div>
-            <nav class="footerLineaSuperior__menu">
-                <ul class="footer__menu__listaMenu">
-                    <li class="footer__menu__listaMenu__item"><a class="footer__menu__listaMenu__item__enlace"href="../index.html">Home</a></li>
-                    <li class="footer__menu__listaMenu__item"><a class="footer__menu__listaMenu__item__enlace"href="../pages/productos.html">Productos</a></li>
-                    <li class="footer__menu__listaMenu__item"><a class="footer__menu__listaMenu__item__enlace"href="../pages/sustentabilidad.html">Sustentabilidad</a></li>
-                    <li class="footer__menu__listaMenu__item"><a class="footer__menu__listaMenu__item__enlace"href="../pages/riders.html">Riders</a></li>
-                    <li class="footer__menu__listaMenu__item"><a class="footer__menu__listaMenu__item__enlace"href="../pages/nosotros.html">Nosotros</a></li>
+            <nav class="menu">
+                <ul class="listaMenu">
+                    <li class="item"><a class="enlace"href="../index.html">Home</a></li>
+                    <li class="item"><a class="enlace"href="../pages/productos.html">Productos</a></li>
+                    <li class="item"><a class="enlace"href="../pages/sustentabilidad.html">Sustentabilidad</a></li>
+                    <li class="item"><a class="enlace"href="../pages/riders.html">Riders</a></li>
+                    <li class="item"><a class="enlace"href="../pages/nosotros.html">Nosotros</a></li>
                 </ul>
             </nav>    
-            <div class="footerLineaSuperior__form">
+            <div class="form">
                     <form>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -231,20 +232,20 @@
                     </form>
             </div>
         </section>
-        <section class="footerLineaInferior">
-            <a class="footer__rrss__enlace" href="http://www.facebook.com">
-                <i class="fa-brands fa-facebook-square fa-2xl icono"></i>
-            </a>
-            <a class="footer__rrss__enlace" href="http://www.instagram.com">
-                <i class="fa-brands fa-instagram-square fa-2xl riInstagram icono"></i>
-            </a>
-            <a class="footer__rrss__enlace" href="https://www.youtube.com">
-                <i class="fa-brands fa-youtube-square fa-2xl riYoutube icono"></i>
-            </a>
-            <a class="footer__rrss__enlace footer__rrss__enlace--pd" href="http://www.pinterest.com">
-                <i class="fa-brands fa-pinterest-square fa-2xl riPinterest icono"></i>
-            </a>
-    </section>
+        <section class="lineaInferior">
+                <a class="enlace" href="http://www.facebook.com">
+                    <i class="fa-brands fa-facebook-square fa-2xl icono"></i>
+                </a>
+                <a class="enlace" href="http://www.instagram.com">
+                    <i class="fa-brands fa-instagram-square fa-2xl riInstagram icono"></i>
+                </a>
+                <a class="enlace" href="https://www.youtube.com">
+                    <i class="fa-brands fa-youtube-square fa-2xl riYoutube icono"></i>
+                </a>
+                <a class="enlace" href="http://www.pinterest.com">
+                    <i class="fa-brands fa-pinterest-square fa-2xl riPinterest icono"></i>
+                </a>
+        </section>
     </footer>
         <!-- FIN FOOTER     -->
 

@@ -1,0 +1,1465 @@
+/* ************** M E D I A   Q U E R Y S ******************** */
+
+@media screen and (max-width: 1920px) {
+    .principalA {
+        height: 680px;
+        .imagen {
+            height: 680px;
+        }
+        .action .titulo{
+            font-size: 56px;
+        }
+
+        .action .texto{
+            font-size: 28px;
+        }
+    }
+
+    .principalB {
+        height: 680px;
+        .imagen {
+            height: 680px;
+        }
+        .action .titulo{
+            font-size: 56px;
+        }
+
+        .action .texto{
+            font-size: 28px;
+        }
+    }
+
+
+    .principalC {
+        height: 345px;
+        .imagen {
+            height: 345px;
+        }
+    }
+
+    .principalD {
+        height: 460px;
+        .imagen{
+            height: 460px;
+        }
+    }
+
+    .principalE {
+        height: 680px;
+        .imagen{
+            height: 680px;
+        }    
+    }
+
+    /* CARD PRESENTACION */
+    .cardPresentacion__cimagen{
+        width: 310px;
+        .imagen{
+            width: 300px;
+            height: 308px;
+        }
+    }
+
+    
+
+    /* CARD ARTICULO */
+    .cardArticulo .imagen{
+        height: 465px;
+    }
+
+    /* CARD INFO */
+    .cardInfo{
+        height: 713px;
+        .main .mapa{
+            width:600px;
+            height: 450px;
+        }
+    } 
+
+    /* CARD RIDER */
+    .cardRider__contenedor{
+        .cardRiders{
+            width: 320px;
+            .imagen{
+                height: 260px;
+                width: 260px;
+            }
+            .textoNombre{
+                font-size:28 px;
+            }
+            
+            .textoApellido{
+                font-size: 28px;
+            }
+            
+            .textoDisciplina{
+                font-size:28px;
+            }
+        }
+    }
+    /* CARD GREEN  */
+    .cardGreen__contenedor{    
+        .cardGreen{
+            height: 225px;
+            .texto{
+                font-size: 18px;
+                height: 112px;
+                width: 100%;
+                .titulo{
+                    font-size: 24px;
+                    padding-top: 26px;
+                }
+                .parrafo{
+                    font-size: 16px;
+                    padding-top: 8px;
+                    padding-left: 26px;
+                    padding-right: 26px;
+                }
+            }
+            
+            .imagen{
+                height: 112px;
+                width: 100%;
+                .iconoG{
+                    font-size: 18px;
+                    padding-top: 26px;
+                    padding-bottom: 26px;
+                }
+                
+                .valor{
+                    font-size: 20px;
+                    padding-top: 8px;
+                    padding-left: 26px;
+                    padding-right: 26px;
+                }
+            }   
+        }
+    }
+
+    /* CARD ECO PRODUCTOS */
+    .cardEcoProductos__contenedor{
+        width: 100%;
+        padding-left:  10%;
+        padding-right: 10%;
+        .cardEcoProdutos{
+            height: 380px;
+            width: 360px;
+            .imagen{
+                height: 250px;
+                width: 360px;
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 1680px) {
+    .principalA {
+        height: 600px;
+        .imagen {
+            height: 600px;
+            }
+        .action{
+            .titulo{
+                font-size: 48px;
+            }  
+            .texto{
+                font-size: 24px;
+                }
+    
+        }
+    }
+
+
+
+    .principalB {
+        height: 600px;
+        .imagen {
+            height: 600px;
+            }
+        .action{
+            .titulo{
+                font-size: 48px;
+            }  
+            .texto{
+                font-size: 24px;
+                }
+    
+        }
+    }
+
+
+    .principalC {
+        height: 305px;
+        .imagen {
+            height: 305px;
+        }
+    }
+
+    .principalD {
+        height: 407px;
+        .imagen{
+            height: 407px;
+        }
+    }
+
+    .principalE {
+        height: 600px;
+        .imagen{
+            height: 600px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+    .cardPresentacion{ 
+        .cimagen{
+            width: 273px;
+            .imagen{
+                width: 263px;
+                height: 269px;
+            }
+        }    
+        .ctexto{
+            .texto{
+                font-size: 20px;
+            }
+        }
+    }
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 42px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+    .cardArticulo{
+        .imagen{
+            height: 407px;
+        }
+        .titulo{
+            font-size: 42px;
+        }
+        .texto{
+            font-size: 20px;
+        }
+    }
+
+    /* CARD INFO */
+    .cardInfo{
+        height: 623px;
+        .titulo{
+            font-size: 32px;
+        }
+        .main .mapa{
+            width:525px;
+            height: 394px;
+        }
+        .main .formLabel{
+            font-size: 16px;
+        }
+    } 
+
+    /* CARD RIDER */
+.cardRider__contenedor{
+        .cardRiders{
+            width: 320px;
+            .imagen{
+                height: 260px;
+                width: 260px;
+            }
+            .textoNombre{
+                font-size:28px;
+            }
+            .textoApellido{
+                font-size: 28px;
+            }
+            
+            .textoDisciplina{
+                font-size:28px;
+            }
+        }
+    }
+
+    /* CARD GREEN  */
+    .cardGreen__contenedor{ 
+        .cardGreen{
+            height: 197px;
+            .texto{
+                font-size: 18px;
+                height: 99px;
+                .titulo{
+                    font-size: 24px;
+                    padding-top: 10px;
+                }
+                .parrafo{
+                    font-size: 16px;
+                    padding-top: 2px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                }
+            }
+            .imagen{
+                height: 99px;
+                .iconoG{
+                    font-size: 18px;
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+                }
+                .valor{
+                    font-size: 18px;
+                    padding-top: 6px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                }
+            }
+        }
+    }
+    /* CLASE cardKnow */
+    .cardKnow__contenedor{
+        height: 300px;
+        .cardKnow {
+            .titulo{
+                font-size: 30px;
+                padding-bottom: 15px;
+            }
+            .parrafo{
+                font-size: 18px;
+                font-weight: 200;
+            }
+        }
+    }
+
+    /* FIN CLASE cardKnow */
+
+    /* CARD PRODICTS */
+
+    .cardProducts{
+        height: 490px;
+        width: 270px;
+        .imagen{
+            height: 370px;
+            width: 250px;
+        }
+    
+        .nombre{
+            font-size: 18px;
+        }
+        .precio{
+            font-size: 18px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .principalA {
+        height: 512px;
+        .imagen {
+            height: 512px;
+        }
+        .action {
+            .titulo{
+            font-size: 40px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .principalB {
+        height: 512px;
+        .imagen {
+            height: 512px;
+        }
+        .action {
+            .titulo{
+            font-size: 40px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .principalC {
+        height: 262px;
+        .imagen {
+            height: 262px;
+        }
+    }
+
+    .principalD {
+        height: 349px;
+        .imagen{
+            height: 349px;
+        }
+    }
+
+
+    .principalE {
+        height: 512px;
+        .imagen{
+            height: 512px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+    .cardPresentacion{
+        .cimagen{
+            width: 235px;
+            .imagen{
+                width: 225px;
+                height: 231px;
+            }
+        }
+        .ctexto{
+            .texto{
+                font-size: 18px;
+            }
+        }
+        .titulo{
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-left: 3px;
+        }
+    }
+
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 36px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+    .cardArticulo{
+        .imagen{
+            height: 349px;
+        }
+        .titulo{
+            font-size: 36px;
+        }
+        
+        .texto{
+            font-size: 18px;
+        }
+    }
+
+
+    /* CARD INFO */
+    .cardInfo{
+        height: 574px;
+        .titulo{
+            font-size: 28px;
+        }
+    
+        .main{
+            .mapa{
+                width:450px;
+                height: 338px;
+            }
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+    } 
+
+    /* CARD RIDER */
+    .cardRider__contenedor{
+        .cardRiders{
+            width: 220px;
+            .imagen{
+                height: 160px;
+                width: 160px;
+            
+            }
+            
+            .textoNombre{
+                font-size:24px;
+            }
+            
+            .textoApellido{
+                font-size: 24px;
+            }
+            
+            .textoDisciplina{
+                font-size:24px;
+            }
+        }
+    }    
+    
+    /* CARD GREEN  */
+    .cardGreen__contenedor{ 
+        .cardGreen{
+            width: 45%;
+        }
+    }    
+
+    /* CLASE cardKnow */
+    .cardKnow__contenedor{
+        height: 290px;
+        .cardKnow{
+            .titulo{
+                font-size: 27px;
+                padding-bottom: 10px;
+            }
+        
+            .parrafo{
+                font-size: 18px;
+                font-weight: 200;
+            }
+        }
+    }
+
+    
+
+    /* Card Products */
+    .cardProducts{
+        height: 470px;
+        width: 250px;
+        .imagen{
+            height: 350px;
+            width: 230px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .principalA {
+        height: 425px;
+        .imagen {
+            height: 425px;
+            }
+        .action{
+            .titulo{
+                font-size: 36px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        } 
+    }
+
+    .principalB {
+        height: 425px;
+        .imagen {
+            height: 425px;
+            }
+        .action{
+            .titulo{
+                font-size: 36px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        } 
+    }
+
+    .principalC {
+        height: 218px;
+        .imagen {
+            height: 218px;
+        }
+    }
+
+    .principalD {
+        height: 291px;
+        .imagen{
+            height: 291px;
+        }
+    }
+
+    .principalE {
+        height: 425px;
+        .imagen{
+            height: 425px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+    .cardPresentacion{
+        .cimagen{
+            width: 198px;
+            .imagen{
+                width: 188px;
+                height: 192px;
+            }
+        }
+        .ctexto{
+            .texto{
+                font-size: 16px;
+            }    
+        }
+        .titulo{
+            font-size: 18px;
+        }    
+    }
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 30px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+    .cardArticulo{
+        .imagen{
+            height: 291px;
+        }    
+        .titulo{
+            font-size: 30px;
+        }
+        .texto{
+            font-size: 18px;
+        }
+    }
+
+
+    /* CARD INFO */
+    .cardInfo{
+        height: 600px;
+    } 
+
+    .titulo{
+        font-size: 24px;
+    }
+
+    .main{
+        .mapa{
+            width:375px;
+            height: 281px;
+        }
+        .formInput{
+            height: 26px;
+        }
+        .formLabel{
+            font-size: 16px;
+        }
+    }
+
+
+    /* CARD GREEN */
+    .cardGreen__contenedor{ 
+        .cardGreen{
+            width: 70%;
+        }
+    }
+    /* CLASE cardKnow */
+    .cardKnow__contenedor{
+        height: 270px;
+        .cardKnow{
+            .titulo{
+                font-size: 24px;
+                padding-bottom: 8px;
+            }
+            .parrafo{
+                font-size: 16px;
+                font-weight: 200;
+            }
+        }
+    }
+
+    
+
+    
+
+    /* Card Products */
+    .cardProductos__contenedor{
+        column-gap: 2%;
+        .cardProducts{
+            height: 440px;
+            width: 200px;
+            .imagen{
+                height: 320px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .principalA {
+        height: 362px;
+        .imagen {
+            height: 362px;
+            }
+        .action{
+            .titulo{
+                font-size: 30px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        }
+    }
+
+    
+
+    
+
+    .principalB {
+        height: 362px;
+        .imagen {
+            height: 362px;
+            }
+        .action{
+            .titulo{
+                font-size: 30px;
+            }
+            .texto{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .principalC {
+        height: 186px;
+        .imagen {
+            height: 186px;
+        }
+    }
+
+    
+
+    .principalD {
+        height: 248px;
+        .imagen{
+            height: 248px;
+        }
+    }
+
+    .principalE {
+        height: 362px;
+        .imagen{
+            height: 362px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+    .cardPresentacion{
+        .cimagen{
+            width: 170px;
+            .imagen{
+                width: 160px;
+                height: 164px;
+            }
+        }
+        .ctexto{
+            .texto{
+                font-size: 16px;
+            }    
+        }
+    
+        .titulo{
+            font-size: 18px;
+        }
+    }
+
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 26px;
+        }    
+    }
+    
+
+    /* CARD ARTICULO */
+    .cardArticulo{
+        .imagen{
+            height: 248px;
+        }
+        .titulo{
+            font-size: 26px;
+        }
+        
+        .texto{
+            font-size: 16px;
+        }
+    }
+
+    
+
+    /* CARD INFO */
+    .cardInfo{
+        height: 600px;
+        .main{
+            width: 45%;
+            .mapa{
+                width:375px;
+                height: 281px;
+            }
+        
+            .formInput{
+                height: 26px;
+            }
+        
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+        .titulo{
+            font-size: 24px;
+        }
+    } 
+
+     /* CARD GREEN */
+    .cardGreen__contenedor{ 
+        .cardGreen{
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .principalA {
+        height: 724px;
+        width: 100%;
+        margin:0%;
+        .imagen {
+            height: 362px;
+        }
+        .action{
+            text-align: center;
+            padding: 0px;
+            .boton{
+                margin: 0px auto
+            }
+            .texto{
+                font-size: 10px;
+                display: none;
+            }
+        }
+    }
+    
+
+    .principalB {
+        height: 724px;
+        width: 100%;
+        margin:0%;
+        .imagen {
+            height: 724px;
+        }
+        .action{
+            text-align: center;
+            padding: 0px;
+        }
+        .boton{
+            margin: 0px auto
+        }
+    }
+
+    
+
+    .principalC{
+        display: none;
+    }
+
+    .principalD{
+        height: 248px;
+        width: 100%;
+        margin:0%;
+        .imagen{
+            height: 248px;
+        }
+    }
+
+    
+.contenedorMain {
+    padding: 0px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    }
+
+.contenedorHeader {
+    grid-template-columns: 66px auto 66px;
+    grid-template-areas: "mmm lll ccc";
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+
+.bg-blanco{
+    height: auto;
+    width: 250px;
+    background-color: #fff;
+}
+.menu {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3px;
+    align-items: flex-start;
+    .listaMenu__item {
+        padding: 3px;
+        }
+    }
+.navegacion {
+    height: 100px;
+    width: 100px;
+    }
+
+.relleno {
+    height: 127px;
+    }
+    
+.contenedorFooter {
+    height: 550px;
+    .lineaSuperior {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        }
+    }
+
+    /* CARD PRESENTACION */
+
+    .cardPresentacion{
+        grid-template-areas:"uno uno" "dos dos";
+        row-gap: 20px;
+        .ctexto{
+            text-align: center;
+            padding-left: 2%;
+            padding-right: 2%;
+            .texto{
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+        .cimagen{
+            width: 170px;
+            .imagen{
+                width: 160px;
+                height: 164px;
+            }
+        }
+        .titulo{
+            font-size: 18px;
+        }
+    }
+    
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 26px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+
+    .cardArticulo{
+        grid-template-areas: 
+            "ddd ddd"
+            "uuu uuu"
+            "ttt ttt"
+            "ccc ccc";
+        justify-content: space-evenly;
+        column-gap: 1%;
+        row-gap: 1%;
+        text-align: center;
+        .imagen{
+            height: 800px;
+        }
+        .titulo{
+            font-size: 26px;
+            padding-top: 0%;
+            padding-bottom: 3%;
+        }
+        .texto{
+            font-size: 16px;
+            padding-bottom: 3%;
+        }
+    }
+    
+
+    /* CARD INFO */
+
+    
+    
+    .cardInfo{
+        height: 1300px;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:center;
+        .main{
+            width: 600px;
+            .cardInfo__titulo{
+                font-size: 24px;
+            }
+            .mapa{
+                width:600px;
+                height: 450px;
+            }
+            .formInput{
+                height: 26px;
+            }
+        
+            .forLabel{
+                font-size: 16px;
+            }
+        }
+    } 
+
+
+    /* CLASE cardKnow */
+    .cardKnow__contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 550px;
+        .cardKnow{
+            .titulo{
+                font-size: 24px;
+                padding-bottom: 8px;
+            }
+            .parrafo{
+                font-size: 16px;
+                font-weight: 200;
+                text-align: justify;
+            }
+        }
+    }
+
+    /* CLASE cardTitulo */
+    .cardTitulo.contenedor{
+        height: 300px;
+    }
+
+    .cardTitulo{
+        .imagen{
+            width: 120px;
+            height: 180px;
+            padding-top: 60px;
+            padding-bottom: 5px;
+        }
+        .texto{
+            font-size: 36px;
+        }
+        .textoChico{
+            font-size: 22px;
+        }
+    }
+
+    /* FIN CLASE cardTitulo */
+
+    /* Card Productos */
+
+    .cardProductos__contenedor{
+        column-gap: 2%;
+        flex-direction: column;
+        align-content: center;
+        .cardProducts{
+            height: 490px;
+            width: 260px;
+            margin-bottom: 30px;
+            .imagen{
+                height: 370px;
+                width: 250px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .principalA {
+        height: 560px;
+        .imagen {
+            height: 280px;
+        }
+    }
+    
+    .principalB {
+        height: 560px;
+        .imagen {
+            height: 560px;
+        }  
+    }
+
+    .principalD{
+        height: 186px;
+        .imagen{
+            height: 186px;
+        }
+    }
+
+    
+
+    .principalE {
+        height: 280px;
+        .imagen{
+            height: 280px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+
+
+    .cardPresentacion{
+        .cimagen{
+            width: 170px;
+            .imagen{
+                width: 160px;
+                height: 164px;
+            }
+        }    
+        .ctexto{
+            .texto{
+            font-size: 16px;
+        }
+        .titulo{
+            font-size: 18px;
+            }
+        }
+    }
+
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 26px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+
+
+    .cardArticulo{
+        .imagen{
+            height: 600px;
+        }
+        .titulo{
+            font-size: 26px;
+            padding-top: 0%;
+            padding-bottom: 3%;
+        }
+        
+        .texto{
+            font-size: 16px;
+            padding-bottom: 3%;
+        }
+    }
+
+    /* CARD INFO */
+
+    .cardInfo{
+        height: 1300px;
+        .main{
+            width: 525px;
+            .mapa{
+                width:525px;
+                height: 394px;
+            }
+        
+            .formInput{
+                height: 26px;
+            }
+        
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+        .titulo{
+            font-size: 24px;
+        }
+    } 
+
+}
+
+@media screen and (max-width: 598px) {
+    .principalA {
+        height: 436px;
+        .imagen {
+            height: 218px;
+        }
+        .action{
+            .titulo{
+                font-size: 20px;
+            }    
+        }
+    }
+
+    .principalB {
+        height: 436px;
+        .imagen {
+            height: 436px;
+        }  
+    }
+
+    .principalD{
+        height: 145px;
+        .imagen{
+            height: 145px;
+        }
+    }
+
+    
+
+    .principalE {
+        height: 218px;
+        .imagen{
+            height: 218px;
+        }
+    }
+
+    /* CARD PRESENTACION */
+
+
+    .cardPresentacion{
+        .cimagen{
+            width: 170px;
+            .imagen{
+                width: 160px;
+                height: 164px;
+            }
+        }
+        .ctexto{
+            .texto{
+            font-size: 16px;
+            }
+        }
+        .titulo{
+            font-size: 18px;
+        }
+    }
+
+    /* CARD SEPARADOR */
+    .cardSeparador{
+        .titulo{
+            font-size: 26px;
+        }
+    }
+    
+
+    /* CARD ARTICULO */
+
+
+    .cardArticulo{
+        .imagen{
+            height: 525px;
+            .titulo{
+                font-size: 26px;
+                padding-top: 0%;
+                padding-bottom: 3%;
+            }
+            
+            .texto{
+                font-size: 16px;
+                padding-bottom: 3%;
+            }
+        }    
+    }
+
+    /* CARD INFO */
+
+    .cardInfo{
+        height: 1200px;
+        .main{
+            width: 375px;
+            ._mapa{
+                width:375px;
+                height: 281px;
+            }
+        
+            .formInput{
+                height: 26px;
+            }
+        
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+    
+        .titulo{
+            font-size: 24px;
+        }
+    } 
+
+}
+
+@media screen and (max-width: 425px) {
+    .principalA {
+        height: 310px;
+        .imagen {
+            height: 155px;
+        }
+    }
+    
+    
+    .principalB {
+        height: 310px;
+        .imagen {
+            height: 310px;
+        }    
+    }
+
+    .principalD{
+        height: 103px;
+        .imagen{
+            height: 103px;
+        }
+    }
+
+    
+
+    .principalE {
+        height: 155px;
+        .imagen{
+            height: 155px;
+        }
+    }
+
+     /* CARD PRESENTACION */
+
+
+
+    /* CARD ARTICULO */
+
+
+    .cardArticulo{
+        .imagen{
+            height: 450px;
+        }
+    }
+
+    /* CARD INFO */
+
+    .cardInfo{
+        height: 1000px;
+        .main{
+            width: 300px;
+            .mapa{
+                width:300px;
+                height: 210px;
+            }
+        
+            .formInput{
+                height: 26px;
+            }
+        
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+    
+        .titulo{
+            font-size: 24px;
+        }
+    
+    } 
+
+    
+
+
+    /* CARD RIDER */
+    .cardRider__contenedor{
+        .cardRiders{
+            width: 190px;
+            .imagen{
+                height: 130px;
+                width: 130px;
+            
+            }
+            
+            .textoNombre{
+                font-size:20px;
+            }
+            
+            .textoApellido{
+                font-size: 20px;
+            }
+            
+            .textoDisciplina{
+                font-size:20px;
+            }
+        }
+    }
+    /* CLASE cardTitulo */
+
+    .cardTitulo{
+        .texto{
+            font-size: 30px;
+        }
+        .textoChico{
+            font-size: 18px;
+        }
+    }
+    
+    /* FIN CLASE cardTitulo */
+
+     /* CARD ECO PRODUCTOS */
+
+    .cardEcoProdutos{
+        height: 330px;
+        width: 310px;
+        .imagen{
+            height: 200px;
+            width: 310px;
+        }
+    }
+
+    .cardKnow__contenedor{
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+     /* CARD PRESENTACION */
+
+
+
+    /* CARD ARTICULO */
+
+
+    .cardArticulo{
+        .imagen{
+            height: 300px;
+        }    
+    }
+
+    /* CARD INFO */
+
+    .cardInfo{
+        height: 900px;
+        .main{
+            width: 280px;
+            .mapa{
+                width:280px;
+                height: 160px;
+            }
+        
+            .formInput{
+                height: 26px;
+            }
+        
+            .formLabel{
+                font-size: 16px;
+            }
+        }
+    
+        .titulo{
+            font-size: 24px;
+        }
+    } 
+
+    
+
+    
+
+
+}
