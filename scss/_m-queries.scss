@@ -1424,7 +1424,12 @@
 
 
     /* CARD ARTICULO */
-
+    .contenedorBanner{
+        height: 64px;
+    }
+    .contenedorHeader{
+        top:64px;
+    }
 
     .cardArticulo{
         .imagen{

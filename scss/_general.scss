@@ -1,7 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0%;
-    border:0px;
+    margin: map-get($estilosGenerales,margenGeneral);
+    padding: map-get($estilosGenerales,paddingGeneral);
+    border:map-get($estilosGenerales,bordeGeneral);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color:$c_blanco ;
+    background-color:map-get($estilosGenerales,colorFondo) ;
 }
 
 .relleno{
@@ -38,39 +38,25 @@ a{
     text-decoration: none;
     font-weight: 300;
 }
-.naranja{
-    border: 2px solid $c_naranja;
-    background-color: $c_naranja;
-    color: $c_grisOscuro;
-    &:hover{
-        font-weight: 500;
-        background-color: $c_blanco;
-        color: $c_naranja;
-    } 
-}
-.celeste{
-    border: 2px solid $c_celeste;
-    background-color: $c_celeste;
-    color: $c_blanco;
-    &:hover{
-        font-weight: 500;
-        background-color: $c_blanco;
-        color: $c_celeste;
-    } 
-}
-.verde{
-    border: 2px solid $c_verdeOscuro;
-    background-color: $c_verdeOscuro;
-    color: $c_verdeClaro;
-    &:hover{
-        font-weight: 500;
-        background-color: $c_verdeClaro;
-        color: $c_verdeOscuro;
-    } 
-}
 
+$botones:(naranja:$c_naranja,celeste:$c_celeste,verde:$c_verdeOscuro);
 
-
+@each $bot,$bcolor in $botones{
+    .#{$bot}{
+        border: 2px solid $bcolor;
+        background-color: $bcolor;
+        color: $c_grisOscuro;
+        &:hover{
+            font-weight: 500;
+            color: $bcolor;
+            @if $bot=="verde"{
+                background-color: $c_verdeClaro;
+            }@else{    
+                background-color: $c_blanco;
+            }    
+        }
+    }
+}
 
 /* Animacion de Iconos de RRSS */
 .icono{

@@ -149,7 +149,7 @@
 
 
 .principalE{
-    width: calc(100%-30px);
+    width: calc(100vw-30px);
     height: 930px;
     margin-top: 15px;
     margin-left: 15px;
@@ -162,5 +162,8 @@
     }
 }
 
+.beradCrumb{
+    padding-left: 15px;
+}
 
 /* FIN CONTENIDO DE LA PAGINA PRINCIPAL */

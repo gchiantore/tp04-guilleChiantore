@@ -1,7 +1,7 @@
 /* PALETA DE COLORES PRINCIPALES  */
 * {
   margin: 0px;
-  padding: 0%;
+  padding: 0px;
   border: 0px;
   font-family: 'Roboto', sans-serif;
   text-decoration: none; }
@@ -37,26 +37,26 @@ a {
   color: #292929; }
   .naranja:hover {
     font-weight: 500;
-    background-color: #FFFFFF;
-    color: #F75F05; }
+    color: #F75F05;
+    background-color: #FFFFFF; }
 
 .celeste {
   border: 2px solid #307ABA;
   background-color: #307ABA;
-  color: #FFFFFF; }
+  color: #292929; }
   .celeste:hover {
     font-weight: 500;
-    background-color: #FFFFFF;
-    color: #307ABA; }
+    color: #307ABA;
+    background-color: #FFFFFF; }
 
 .verde {
   border: 2px solid #45855D;
   background-color: #45855D;
-  color: #CADAD0; }
+  color: #292929; }
   .verde:hover {
     font-weight: 500;
-    background-color: #CADAD0;
-    color: #45855D; }
+    color: #45855D;
+    background-color: #CADAD0; }
 
 /* Animacion de Iconos de RRSS */
 .icono {
@@ -333,7 +333,7 @@ a {
 /* FIN CARD ECO-PRODUCTS */
 /* CARD RIDERS */
 .cardRider__contenedor {
-  width: 100%;
+  width: 100vw;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 3%;
@@ -376,32 +376,32 @@ a {
 
 /* CARD RIDERS */
 /* CLASE cardKnow */
-.cardKnow__contenedor {
+.cardKnowContenedoroscuro, .cardKnowContenedorclaro {
   width: 100%;
   height: 400px;
   display: flex;
   justify-content: space-evenly; }
-  .cardKnow__contenedor .cardKnow {
+  .cardKnowContenedoroscuro .cardKnow, .cardKnowContenedorclaro .cardKnow {
     width: auto;
     height: 100%;
     text-align: center;
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%; }
-    .cardKnow__contenedor .cardKnow .titulo {
+    .cardKnowContenedoroscuro .cardKnow .titulo, .cardKnowContenedorclaro .cardKnow .titulo {
       font-weight: 300px;
       font-size: 36px;
       padding-bottom: 20px; }
-    .cardKnow__contenedor .cardKnow .claro {
+    .cardKnowContenedoroscuro .cardKnow .claro, .cardKnowContenedorclaro .cardKnow .claro {
       color: #CADAD0; }
-    .cardKnow__contenedor .cardKnow .oscuro {
+    .cardKnowContenedoroscuro .cardKnow .oscuro, .cardKnowContenedorclaro .cardKnow .oscuro {
       color: #45855D; }
-    .cardKnow__contenedor .cardKnow .parrafo {
+    .cardKnowContenedoroscuro .cardKnow .parrafo, .cardKnowContenedorclaro .cardKnow .parrafo {
       font-size: 24px;
       font-weight: 200; }
-    .cardKnow__contenedor .cardKnow .parrafoClaro {
+    .cardKnowContenedoroscuro .cardKnow .parrafoClaro, .cardKnowContenedorclaro .cardKnow .parrafoClaro {
       color: #CADAD0; }
-    .cardKnow__contenedor .cardKnow .parrafoOscuro {
+    .cardKnowContenedoroscuro .cardKnow .parrafoOscuro, .cardKnowContenedorclaro .cardKnow .parrafoOscuro {
       color: #45855D; }
 
 .cardKnowContenedoroscuro {
@@ -500,7 +500,7 @@ a {
   margin: 0%; }
 
 .contenedorMain {
-  width: auto;
+  width: 100vw;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #FFFFFF; }
@@ -539,7 +539,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: left;
         column-gap: 30px; }
         .contenedorFooter .lineaSuperior .menu .listaMenu .item {
           text-align: left;
@@ -763,7 +763,7 @@ a {
   margin-bottom: 15px; }
 
 .principalE {
-  width: calc(100%-30px);
+  width: calc(100vw-30px);
   height: 930px;
   margin-top: 15px;
   margin-left: 15px;
@@ -773,6 +773,9 @@ a {
   .principalE .imagen {
     width: 100%;
     height: 930px; }
+
+.beradCrumb {
+  padding-left: 15px; }
 
 /* FIN CONTENIDO DE LA PAGINA PRINCIPAL */
 /* ************** M E D I A   Q U E R Y S ******************** */
@@ -1569,6 +1572,10 @@ a {
 @media screen and (max-width: 320px) {
   /* CARD PRESENTACION */
   /* CARD ARTICULO */
+  .contenedorBanner {
+    height: 64px; }
+  .contenedorHeader {
+    top: 64px; }
   .cardArticulo .imagen {
     height: 300px; }
   /* CARD INFO */
