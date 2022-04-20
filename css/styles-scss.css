@@ -43,7 +43,7 @@ a {
 .celeste {
   border: 2px solid #307ABA;
   background-color: #307ABA;
-  color: #292929; }
+  color: #FFFFFF; }
   .celeste:hover {
     font-weight: 500;
     color: #307ABA;
@@ -52,7 +52,7 @@ a {
 .verde {
   border: 2px solid #45855D;
   background-color: #45855D;
-  color: #292929; }
+  color: #FFFFFF; }
   .verde:hover {
     font-weight: 500;
     color: #45855D;
@@ -488,7 +488,7 @@ a {
 .contenedorBanner {
   background-color: #F75F05;
   color: #000000;
-  font-weight: 500;
+  font-weight: 100;
   text-align: center;
   height: 32px;
   width: 100%;

@@ -45,7 +45,11 @@ $botones:(naranja:$c_naranja,celeste:$c_celeste,verde:$c_verdeOscuro);
     .#{$bot}{
         border: 2px solid $bcolor;
         background-color: $bcolor;
-        color: $c_grisOscuro;
+        @if $bot=="naranja"{
+            color: $c_grisOscuro;
+        }@else{
+            color: $c_blanco;
+        }    
         &:hover{
             font-weight: 500;
             color: $bcolor;
