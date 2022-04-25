@@ -28,7 +28,12 @@ a {
   line-height: 40px;
   text-align: center;
   text-decoration: none;
-  font-weight: 300; }
+  font-weight: 300;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  z-index: 0;
+  overflow: hidden; }
 
 .naranja {
   border: 2px solid #F75F05;
@@ -38,6 +43,19 @@ a {
     font-weight: 500;
     color: #F75F05;
     background-color: #FFFFFF; }
+  .naranja:hover:after {
+    width: 100%; }
+
+.naranja:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #FFFFFF; }
 
 .celeste {
   border: 2px solid #307ABA;
@@ -47,6 +65,19 @@ a {
     font-weight: 500;
     color: #307ABA;
     background-color: #FFFFFF; }
+  .celeste:hover:after {
+    width: 100%; }
+
+.celeste:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #FFFFFF; }
 
 .verde {
   border: 2px solid #45855D;
@@ -56,6 +87,43 @@ a {
     font-weight: 500;
     color: #45855D;
     background-color: #CADAD0; }
+  .verde:hover:after {
+    width: 100%; }
+
+.verde:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #CADAD0; }
+
+.susClaro {
+  font-weight: 500;
+  color: #CADAD0; }
+
+.susOscuro {
+  font-weight: 500;
+  color: #45855D; }
+
+.resalteNegro {
+  font-weight: 500;
+  color: #292929; }
+
+.resalteNaranja {
+  font-weight: 500;
+  color: #F75F05; }
+
+.resalteCeleste {
+  font-weight: 500;
+  color: #307ABA; }
+
+.resalteBlanco {
+  font-weight: 500;
+  color: #FFFFFF; }
 
 /* Animacion de Iconos de RRSS */
 .icono {
@@ -154,8 +222,8 @@ a {
   grid-template-areas: "uuu ddd" "uuu ddd" "ttt ccc" "ttt ccc";
   justify-content: center;
   align-content: center;
-  column-gap: 1%;
-  row-gap: 1%; }
+  column-gap: 3%;
+  row-gap: 3%; }
   .cardArticulo .uno {
     grid-area: uuu;
     display: flex;
@@ -194,7 +262,7 @@ a {
     font-weight: 100;
     font-size: 48px;
     padding-top: 6%;
-    padding-bottom: 6%; }
+    padding-bottom: 1%; }
   .cardArticulo .texto {
     font-size: 24px;
     font-weight: 100; }
@@ -298,6 +366,7 @@ a {
   padding-right: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
+  margin-bottom: 5%;
   background-color: #FFFFFF;
   display: flex;
   row-gap: 40%;
@@ -311,7 +380,7 @@ a {
     height: 460px;
     width: 440px;
     text-align: center;
-    padding-top: 10px; }
+    margin-top: 7%; }
     .cardEcoProductos__contenedor .cardEcoProdutos .imagen {
       height: 310px;
       width: 440px; }
@@ -323,8 +392,7 @@ a {
       padding-left: 3px; }
     .cardEcoProductos__contenedor .cardEcoProdutos .textoAccion {
       font-weight: 100;
-      font-size: 16px;
-      padding-bottom: 2%; }
+      font-size: 16px; }
   .cardEcoProductos__contenedor .imagen:hover {
     transform: scale(1.05, 1.05);
     box-shadow: 0px 5px 20px #5e5e5e; }
@@ -490,9 +558,10 @@ a {
   font-weight: 100;
   text-align: center;
   height: 32px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0px;
+  left: 0%;
   z-index: 1000;
   padding-top: 6px;
   border-bottom: #FFFFFF 2px solid;
@@ -577,6 +646,7 @@ a {
   padding-bottom: 1px;
   position: fixed;
   top: 32px;
+  left: 0px;
   z-index: 1000;
   border-bottom: 1px #292929 solid;
   /* box-shadow: 0px 5px 20px #5e5e5e; */
@@ -588,7 +658,7 @@ a {
   .contenedorHeader .logo {
     height: 66px;
     width: 66px;
-    margin-left: 3px;
+    margin-left: 18px;
     grid-area: lll; }
     .contenedorHeader .logo .image {
       height: 66px;
@@ -814,7 +884,7 @@ a {
       height: 308px; }
   /* CARD ARTICULO */
   .cardArticulo .imagen {
-    height: 465px; }
+    height: 595px; }
   /* CARD INFO */
   .cardInfo {
     height: 713px; }
@@ -914,11 +984,11 @@ a {
     font-size: 42px; }
   /* CARD ARTICULO */
   .cardArticulo .imagen {
-    height: 407px; }
+    height: 447px; }
   .cardArticulo .titulo {
-    font-size: 42px; }
+    font-size: 40px; }
   .cardArticulo .texto {
-    font-size: 20px; }
+    font-size: 18px; }
   /* CARD INFO */
   .cardInfo {
     height: 623px; }
@@ -1034,11 +1104,11 @@ a {
     font-size: 36px; }
   /* CARD ARTICULO */
   .cardArticulo .imagen {
-    height: 349px; }
+    height: 359px; }
   .cardArticulo .titulo {
-    font-size: 36px; }
+    font-size: 34px; }
   .cardArticulo .texto {
-    font-size: 18px; }
+    font-size: 16px; }
   /* CARD INFO */
   .cardInfo {
     height: 574px; }
@@ -1074,12 +1144,17 @@ a {
       font-size: 18px;
       font-weight: 200; }
   /* Card Products */
-  .cardProducts {
-    height: 470px;
-    width: 250px; }
-    .cardProducts .imagen {
-      height: 350px;
-      width: 230px; } }
+  .cardProductos__contenedor {
+    column-gap: 2%; }
+    .cardProductos__contenedor .cardProducts {
+      height: 440px;
+      width: 200px; }
+      .cardProductos__contenedor .cardProducts .imagen {
+        height: 320px;
+        width: 200px; }
+  /* Card Eco-Products */
+  .cardEcoProductos__contenedor {
+    margin-bottom: 10%; } }
 
 @media screen and (max-width: 1200px) {
   .principalA {
@@ -1124,12 +1199,32 @@ a {
   .cardSeparador .titulo {
     font-size: 30px; }
   /* CARD ARTICULO */
-  .cardArticulo .imagen {
-    height: 291px; }
-  .cardArticulo .titulo {
-    font-size: 30px; }
-  .cardArticulo .texto {
-    font-size: 18px; }
+  .cardArticulo {
+    grid-template-areas: "ddd ddd" "uuu uuu" "ttt ttt" "ccc ccc";
+    justify-content: space-evenly;
+    column-gap: 1%;
+    row-gap: 1%;
+    text-align: center; }
+    .cardArticulo .imagen {
+      height: 800px; }
+    .cardArticulo .titulo {
+      font-size: 26px;
+      padding-top: 0%;
+      padding-bottom: 3%; }
+    .cardArticulo .texto {
+      font-size: 16px;
+      padding-bottom: 3%; }
+  /* .cardArticulo{
+        .imagen{
+            height: 291px;
+        }    
+        .titulo{
+            font-size: 30px;
+        }
+        .texto{
+            font-size: 18px;
+        }
+    } */
   /* CARD INFO */
   .cardInfo {
     height: 600px; }
@@ -1207,12 +1302,19 @@ a {
   .cardSeparador .titulo {
     font-size: 26px; }
   /* CARD ARTICULO */
-  .cardArticulo .imagen {
-    height: 248px; }
-  .cardArticulo .titulo {
-    font-size: 26px; }
-  .cardArticulo .texto {
-    font-size: 16px; }
+  /* .cardArticulo{
+        .imagen{
+            height: 248px;
+        }
+        .titulo{
+            font-size: 26px;
+        }
+        
+        .texto{
+            font-size: 16px;
+        }
+    }
+ */
   /* CARD INFO */
   .cardInfo {
     height: 600px; }
@@ -1366,6 +1468,8 @@ a {
       font-size: 16px;
       font-weight: 200;
       text-align: justify; }
+  .cardKnowContenedorclaro {
+    height: 250px; }
   /* CLASE cardTitulo */
   .cardTitulo.contenedor {
     height: 300px; }
@@ -1445,7 +1549,10 @@ a {
       .cardInfo .main .formLabel {
         font-size: 16px; }
     .cardInfo .titulo {
-      font-size: 24px; } }
+      font-size: 24px; }
+  /* CARD Know */
+  .cardKnowContenedorclaro {
+    height: 350px; } }
 
 @media screen and (max-width: 598px) {
   .principalA {
@@ -1565,7 +1672,9 @@ a {
       height: 200px;
       width: 310px; }
   .cardKnow__contenedor {
-    height: 600px; } }
+    height: 600px; }
+  .cardKnowContenedorclaro {
+    height: 450px; } }
 
 @media screen and (max-width: 320px) {
   /* CARD PRESENTACION */

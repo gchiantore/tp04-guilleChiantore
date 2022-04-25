@@ -79,8 +79,8 @@
         "ttt ccc";
     justify-content: center;
     align-content: center;
-    column-gap: 1%;
-    row-gap: 1%;
+    column-gap: 3%;
+    row-gap: 3%;
     
     @mixin articulo($acontenido){
         display: flex;
@@ -124,7 +124,7 @@
         font-weight: 100;
         font-size: 48px;
         padding-top: 6%;
-        padding-bottom: 6%;
+        padding-bottom: 1%;
     }
     
     .texto{
@@ -262,6 +262,7 @@
     padding-right: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-bottom: 5%;
     background-color: $c_blanco;
     display: flex;
     row-gap: 40%;
@@ -275,7 +276,7 @@
         height: 460px;
         width: 440px;
         text-align: center;
-        padding-top: 10px;
+        margin-top: 7%;
         .imagen{
             height: 310px;
             width: 440px;
@@ -290,7 +291,6 @@
         .textoAccion{
             font-weight: 100;
             font-size:16px;
-            padding-bottom: 2%;
         }
     }
     .imagen:hover{
@@ -507,9 +507,10 @@
     font-weight: 100;
     text-align: center;
     height: 32px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0px;
+    left: 0%;
     z-index: 1000;
     padding-top: 6px;
     border-bottom: $c_blanco 2px solid;

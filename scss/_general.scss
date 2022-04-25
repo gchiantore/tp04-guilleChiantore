@@ -28,7 +28,9 @@ a{
 
 /* BOTONES DE ENLACES */
 
-.btnCta{
+
+
+.btnCta {
     display: inline-block;
     width: 196px;
     height: 40px;
@@ -37,6 +39,11 @@ a{
     text-align: center;
     text-decoration: none;
     font-weight: 300;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+    z-index: 0;
+    overflow: hidden;
 }
 
 $botones:(naranja:$c_naranja,celeste:$c_celeste,verde:$c_verdeOscuro);
@@ -59,8 +66,37 @@ $botones:(naranja:$c_naranja,celeste:$c_celeste,verde:$c_verdeOscuro);
                 background-color: $c_blanco;
             }    
         }
+        &:hover:after{
+            width: 100%;
+        }
+    }
+    .#{$bot}:after{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        @if $bot=="verde"{
+            background-color: $c_verdeClaro;
+        }@else{    
+            background-color: $c_blanco;
+        }
     }
 }
+
+
+$spa:(susClaro:$c_verdeClaro,susOscuro:$c_verdeOscuro,resalteNegro:$c_grisOscuro,resalteNaranja:$c_naranja,resalteCeleste:$c_celeste,resalteBlanco:$c_blanco);
+
+@each $spaNav,$scolor in $spa{
+    .#{$spaNav}{
+        font-weight: 500;
+        color: $scolor;
+    }
+}
+
 
 /* Animacion de Iconos de RRSS */
 .icono{
