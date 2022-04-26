@@ -1,6 +1,7 @@
 /* HEADER y MENU */
 
 .contenedorHeader{
+    z-index: 1001;
     height:69px;
     width:100vw;
     background-color:$c_blanco;
@@ -17,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     .logo{
+        z-index: 1001;
         height: 66px;
         width: 66px;
         margin-left: 18px;
@@ -81,11 +83,5 @@
 .bg-blanco{
     background-color: $c_blanco;
 }
-
-
-
-
-
-
 
 /* FIN HEADER Y MENU */

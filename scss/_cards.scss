@@ -46,7 +46,7 @@
 
 .cardSeparador{
     height: 140px;
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: center;
     background-color: $c_blanco;
     .barra{
@@ -81,6 +81,7 @@
     align-content: center;
     column-gap: 3%;
     row-gap: 3%;
+    margin-bottom: 3%;
     
     @mixin articulo($acontenido){
         display: flex;

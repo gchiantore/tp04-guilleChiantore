@@ -197,7 +197,7 @@ a {
 /* CARD TITULO CON SEPARADOR */
 .cardSeparador {
   height: 140px;
-  margin-top: 3%;
+  margin-top: 5%;
   text-align: center;
   background-color: #FFFFFF; }
   .cardSeparador .barra {
@@ -223,7 +223,8 @@ a {
   justify-content: center;
   align-content: center;
   column-gap: 3%;
-  row-gap: 3%; }
+  row-gap: 3%;
+  margin-bottom: 3%; }
   .cardArticulo .uno {
     grid-area: uuu;
     display: flex;
@@ -594,7 +595,8 @@ a {
     row-gap: 25px; }
     .contenedorFooter .lineaSuperior .logo {
       width: 116px;
-      height: 76px; }
+      height: 76px;
+      margin-bottom: 30px; }
       .contenedorFooter .lineaSuperior .logo .image {
         width: 86px;
         height: 86px; }
@@ -640,6 +642,7 @@ a {
 /* FIN FOOTER */
 /* HEADER y MENU */
 .contenedorHeader {
+  z-index: 1001;
   height: 69px;
   width: 100vw;
   background-color: #FFFFFF;
@@ -656,6 +659,7 @@ a {
   justify-content: space-between;
   align-items: center; }
   .contenedorHeader .logo {
+    z-index: 1001;
     height: 66px;
     width: 66px;
     margin-left: 18px;
@@ -1148,9 +1152,9 @@ a {
     column-gap: 2%; }
     .cardProductos__contenedor .cardProducts {
       height: 440px;
-      width: 200px; }
+      width: 212px; }
       .cardProductos__contenedor .cardProducts .imagen {
-        height: 320px;
+        height: 315px;
         width: 200px; }
   /* Card Eco-Products */
   .cardEcoProductos__contenedor {
@@ -1214,17 +1218,6 @@ a {
     .cardArticulo .texto {
       font-size: 16px;
       padding-bottom: 3%; }
-  /* .cardArticulo{
-        .imagen{
-            height: 291px;
-        }    
-        .titulo{
-            font-size: 30px;
-        }
-        .texto{
-            font-size: 18px;
-        }
-    } */
   /* CARD INFO */
   .cardInfo {
     height: 600px; }
@@ -1254,9 +1247,9 @@ a {
     column-gap: 2%; }
     .cardProductos__contenedor .cardProducts {
       height: 440px;
-      width: 200px; }
+      width: 212px; }
       .cardProductos__contenedor .cardProducts .imagen {
-        height: 320px;
+        height: 315px;
         width: 200px; } }
 
 @media screen and (max-width: 1024px) {
@@ -1301,20 +1294,6 @@ a {
   /* CARD SEPARADOR */
   .cardSeparador .titulo {
     font-size: 26px; }
-  /* CARD ARTICULO */
-  /* .cardArticulo{
-        .imagen{
-            height: 248px;
-        }
-        .titulo{
-            font-size: 26px;
-        }
-        
-        .texto{
-            font-size: 16px;
-        }
-    }
- */
   /* CARD INFO */
   .cardInfo {
     height: 600px; }
@@ -1394,11 +1373,12 @@ a {
   .relleno {
     height: 127px; }
   .contenedorFooter {
-    height: 550px; }
+    height: 650px; }
     .contenedorFooter .lineaSuperior {
       flex-direction: column;
       align-items: center;
-      justify-content: space-around; }
+      justify-content: space-around;
+      row-gap: 50px; }
   /* CARD PRESENTACION */
   .cardPresentacion {
     grid-template-areas: "uno uno" "dos dos";
