@@ -920,7 +920,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        row-gap: 50px;
         }
     }
 
@@ -996,13 +995,13 @@
         justify-content:flex-start;
         align-items:center;
         .main{
-            width: 600px;
+            width: 525px;
             .cardInfo__titulo{
                 font-size: 24px;
             }
             .mapa{
-                width:600px;
-                height: 450px;
+                width:525px;
+                height: 394px;
             }
             .formInput{
                 height: 26px;
@@ -1279,12 +1278,12 @@
     /* CARD INFO */
 
     .cardInfo{
-        height: 1200px;
+        height: 1000px;
         .main{
-            width: 375px;
-            ._mapa{
-                width:375px;
-                height: 281px;
+            width: 300px;
+            .mapa{
+                width:300px;
+                height: 210px;
             }
         
             .formInput{
@@ -1299,6 +1298,7 @@
         .titulo{
             font-size: 24px;
         }
+    
     } 
 
 }
@@ -1478,10 +1478,4 @@
             font-size: 24px;
         }
     } 
-
-    
-
-    
-
-
 }

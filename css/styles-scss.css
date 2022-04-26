@@ -1377,8 +1377,7 @@ a {
     .contenedorFooter .lineaSuperior {
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
-      row-gap: 50px; }
+      justify-content: space-around; }
   /* CARD PRESENTACION */
   .cardPresentacion {
     grid-template-areas: "uno uno" "dos dos";
@@ -1423,12 +1422,12 @@ a {
     justify-content: flex-start;
     align-items: center; }
     .cardInfo .main {
-      width: 600px; }
+      width: 525px; }
       .cardInfo .main .cardInfo__titulo {
         font-size: 24px; }
       .cardInfo .main .mapa {
-        width: 600px;
-        height: 450px; }
+        width: 525px;
+        height: 394px; }
       .cardInfo .main .formInput {
         height: 26px; }
       .cardInfo .main .forLabel {
@@ -1578,12 +1577,12 @@ a {
       padding-bottom: 3%; }
   /* CARD INFO */
   .cardInfo {
-    height: 1200px; }
+    height: 1000px; }
     .cardInfo .main {
-      width: 375px; }
-      .cardInfo .main ._mapa {
-        width: 375px;
-        height: 281px; }
+      width: 300px; }
+      .cardInfo .main .mapa {
+        width: 300px;
+        height: 210px; }
       .cardInfo .main .formInput {
         height: 26px; }
       .cardInfo .main .formLabel {
